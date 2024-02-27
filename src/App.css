@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+    color: red;
+}
+
+
+body{
+    margin: 20px;
+    background: linear-gradient(to bottom, white, rgb(235, 235, 150));
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.award{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 650px;
+
+}
+.award-section{
+    display: flex;
+    gap: 100px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    height: 120px;
+    margin-bottom: 10px;
+}
+.top-heading{
+    margin-bottom: 20px;
+}
+.main-image{
+    height: 430px;
+    margin-top: 10px;
+    width: 100%;
+}
+.equip-img{
+    width: 90%;
+    margin: 2%;
+}
+
+.details p{
+    margin: 15px 0 15px 0;
+}
+.equip-container{
+    border-bottom: 2.5px solid red;
+    padding-bottom: 10px;
+}
+.last-heading{
+    margin: 20px 0 20px 0;
+
+}
+span{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    background-color: rgb(219, 65, 65);
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    margin: 20px 0 0 0;
+}
+
+footer div{
+    margin: 5%;
+    margin-bottom : 7%;
+}
+
+@media only screen and (max-width: 912px) {
+
+    .award-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px 0 30px;
+    }
+    .award{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 320px;
+    }
+
+}
